@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!--navbar starts here-->
+    <nav class="bg-[#071426] text-white border-b-[0.25px] border-[#c9A84C]">
+        <div class="md:px-20 px-14 py-1">
+            <div class="flex justify-between">
+                <div>
+                    <h2 class="font-cormorant text-xl font-medium">Rabboni</h2>
+                    <p class="uppercase font-thin text-[#C9A84C]">consultants ltd.</p>
+                </div>
+                <div class="flex gap-8 items-center">
+                    <ul class="uppercase items-center md:justify-between gap-6 hidden md:flex">
+                        <li class="text-[13px] font-normal hover:text-[#C9A84C]">about</li>
+                        <li class="text-[13px] font-normal hover:text-[#C9A84C]">services</li>
+                        <li class="text-[13px] font-normal hover:text-[#C9A84C]">why us</li>
+                        <li class="text-[13px] font-normal hover:text-[#C9A84C]">process</li>
+                    </ul>
+                    <button
+                        class="uppercase text-[#C9A84C] hover:bg-[#C9A84C] hover:text-[#071426] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(201,168,76,0.3)] border border-[#C9A84C] text-sm leading-none px-3 h-11">book
+                        consultation</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--navbar ends here-->
+
+    <!--hero section starts here-->
+    <section class="relative bg-[#071426] text-white overflow-hidden">
+        <div class="hidden md:block absolute inset-0 opacity-10 pointer-events-none">
+            <div class="absolute left-1/2 top-0 w-px h-full bg-[#C9A84C]"></div>
+
+            <div class="absolute top-3/4 left-0 h-px w-full bg-[#C9A84C]"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 md:px-10 py-16 md:py-24 relative z-10">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <div class="flex items-center gap-4 mb-10">
+                        <div class="w-10 border-b border-[#C9A84C]"></div>
+                        <p class="uppercase text-[11px] tracking-[4px] text-[#C9A84C]">
+                            Canada-Based Global Advisory
+                        </p>
+                    </div>
+                    <h1 class="font-cormorant text-5xl md:text-7xl font-light leading-[1.05]">
+                        Transforming
+                        <br>
+                        <span class="italic text-[#C9A84C]">
+                            Businesses.
+                        </span>
+                        <br>
+                        Enabling Global
+                        <br>
+                        Growth.
+                    </h1>
+                    <p class="mt-10 text-gray-400 max-w-lg leading-8 text-lg">
+                        Strategy, business transformation, and execution support
+                        for companies expanding across borders.
+                    </p>
+                    <div class="flex flex-wrap gap-4 mt-10">
+                        <button
+                            class="bg-[#C9A84C] text-[#071426] hover:bg-[#071426] hover:text-[#C9A84C] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(201,168,76,0.3)] uppercase tracking-wider px-8 py-4 text-sm">
+                            Book A Consultation →
+                        </button>
+                        <button
+                            class="border hover:bg-white hover:text-[#071426] border-[#2e405c] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(255,255,255,0.15)] uppercase tracking-wider px-8 py-4 text-sm">
+                            Explore Services
+                        </button>
+                    </div>
+                </div>
+                <div class="flex justify-center md:justify-end">
+                    <img src="images/hero.jpg" alt="hero section image"
+                        class="w-full max-w-[500px] h-[550px] object-cover rounded-xl">
+                </div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-y-10 py-10">
+                <div class="flex flex-col items-center">
+                    <h3 class="text-[#C9A84C] text-4xl font-cormorant">
+                        6+
+                    </h3>
+                    <p class="uppercase text-[11px] tracking-[3px] text-gray-500 mt-2">
+                        Service Specialisms
+                    </p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <h3 class="text-[#C9A84C] text-4xl font-cormorant">
+                        Global
+                    </h3>
+                    <p class="uppercase text-[11px] tracking-[3px] text-gray-500 mt-2">
+                        Market Reach
+                    </p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <h3 class="text-[#C9A84C] text-4xl font-cormorant">
+                        End-to-End
+                    </h3>
+                    <p class="uppercase text-[11px] tracking-[3px] text-gray-500 mt-2">
+                        Execution Support
+                    </p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <h3 class="text-[#C9A84C] text-4xl font-cormorant">
+                        Canada
+                    </h3>
+                    <p class="uppercase text-[11px] tracking-[3px] text-gray-500 mt-2">
+                        Headquartered
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--hero section ends here-->
+
+    <!--our mandate section starts here-->
+    <section class="bg-[#FAF8F4] py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-20">
+                <div>
+                    <div class="flex items-center gap-3 mb-8">
+                        <div class="w-8 border-b border-[#C9A84C]"></div>
+                        <p class="uppercase tracking-[4px] text-xs text-[#C9A84C]">
+                            Our Mandate
+                        </p>
+                    </div>
+                    <h2 class="font-cormorant text-[#0A1628] text-5xl md:text-6xl leading-tight">
+                        At the intersection of
+                        <br>
+                        <span class="italic">strategy</span> and execution
+                    </h2>
+                    <p class="mt-8 text-gray-700 text-lg leading-10 max-w-xl">
+                        We help businesses navigate complexity, unlock growth
+                        opportunities, and execute expansion strategies across
+                        international markets — from Canada and beyond.
+                    </p>
+                    <div class="bg-[#071426] border-l-4 border-[#C9A84C] mt-12 p-8">
+                        <p class="font-cormorant italic text-2xl text-white leading-relaxed">
+                            "We don't just advise — we build, implement,
+                            and scale alongside our clients."
+                        </p>
+                    </div>
+                </div>
+                <div class="space-y-0">
+                    <div class="border-t border-gray-300 py-8 flex gap-6">
+                        <div
+                            class="w-12 h-12 border border-gray-300 flex items-center justify-center text-[#C9A84C] hover:bg-[#C9A84C] hover:text-[#FAF8F4]">
+                            <i class="fa-regular fa-rectangle-list"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-[#0A1628]">
+                                Strategic Advisory
+                            </h3>
+                            <p class="text-gray-600 mt-2 leading-8">
+                                Market entry strategy, business structuring,
+                                and go-to-market planning for sustainable growth.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="border-t border-gray-300 py-8 flex gap-6">
+                        <div
+                            class="w-12 h-12 border border-gray-300 flex items-center justify-center text-[#C9A84C] hover:bg-[#C9A84C] hover:text-[#FAF8F4]">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-[#0A1628]">
+                                Cross-Border Expansion
+                            </h3>
+                            <p class="text-gray-600 mt-2 leading-8">
+                                End-to-end support for entering new
+                                international markets with precision and confidence.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="border-t border-gray-300 py-8 flex gap-6">
+                        <div
+                            class="w-12 h-12 border border-gray-300 flex items-center justify-center text-[#C9A84C] hover:bg-[#C9A84C] hover:text-[#FAF8F4]">
+                            <i class="fa-solid fa-arrows-rotate"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-[#0A1628]">
+                                Business Transformation
+                            </h3>
+                            <p class="text-gray-600 mt-2 leading-8">
+                                Operational redesign, digital transformation,and performance optimization for
+                                competitive markets.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="border-y border-gray-300 py-8 flex gap-6">
+                        <div
+                            class="w-12 h-12 border border-gray-300 flex items-center justify-center text-[#C9A84C] hover:bg-[#C9A84C] hover:text-[#FAF8F4]">
+                            <i class="fa-regular fa-circle-check"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-[#0A1628]">
+                                Execution Support
+                            </h3>
+                            <p class="text-gray-600 mt-2 leading-8">
+                                On-ground implementation, vendor coordination,
+                                operational setup, and project management.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--our mandate sectioin ends here-->
+
+    <!--what we offer section starts here-->
+    <section class="bg-[#FFFFFF] py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-20 mb-16">
+                <div>
+                    <div class="flex items-center gap-3 mb-8">
+                        <div class="w-8 border-b border-[#C9A84C]"></div>
+                        <p class="uppercase text-xs tracking-[4px] text-[#C9A84C]">
+                            What We Offer
+                        </p>
+                    </div>
+                    <h2 class="font-cormorant text-[#0A1628] text-6xl leading-tight">
+                        Comprehensive
+                        <span class="italic">advisory</span>
+                        to execution
+                    </h2>
+                </div>
+                <div class="flex items-center">
+                    <p class="text-gray-600 text-xl leading-10 max-w-lg">
+                        Six core practice areas designed to take your business
+                        from strategy to scale — across Canada and
+                        international markets.
+                    </p>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-3 border border-gray-300">
+                <div class="md:col-span-2 bg-[#031738] text-white p-10">
+                    <span
+                        class="bg-[#C9A84C] text-[#031738] hover:bg-[#031738] hover:text-[#C9A84C] text-xs tracking-[2px] uppercase px-4 py-2 inline-block transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(201,168,76,0.3)]">
+                        Flagship Service
+                    </span>
+                    <p class="mt-8 text-xs text-gray-400">01</p>
+                    <h3 class="font-cormorant text-5xl mt-6">
+                        Business Transformation
+                    </h3>
+                    <p class="text-gray-300 mt-6 leading-8 max-w-3xl">
+                        We help businesses optimize, restructure, and scale
+                        operations to compete effectively in global markets.
+                    </p>
+                    <div class="flex flex-wrap gap-3 mt-8">
+                        <span
+                            class="border border-[#3a4a6d] hover:bg-white hover:text-[#031738] px-3 py-2 text-xs transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(255,255,255,0.15)]">
+                            Operational Efficiency
+                        </span>
+                        <span
+                            class="border border-[#3a4a6d] hover:bg-white hover:text-[#031738] px-3 py-2 text-xs transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(255,255,255,0.15)]">
+                            Digital Transformation
+                        </span>
+                        <span
+                            class="border border-[#3a4a6d] hover:bg-white hover:text-[#031738] px-3 py-2 text-xs transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(255,255,255,0.15)]">
+                            Business Model Redesign
+                        </span>
+                    </div>
+                    <div class="mt-10 text-[#C9A84C] text-3xl">
+                        →
+                    </div>
+                </div>
+                <div class="border-l border-gray-300 p-8">
+                    <p class="text-xs text-gray-400">02</p>
+                    <h3 class="font-cormorant text-3xl text-[#0A1628] mt-6">
+                        Business Consulting
+                    </h3>
+                    <p class="text-gray-600 mt-4 leading-8">
+                        Strategic advisory for market entry and growth planning.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mt-6">
+                        <span
+                            class="border px-3 py-2 hover:bg-[#031738] hover:text-white text-xs transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(50,80,130,0.4)]">Market
+                            Entry</span>
+                        <span
+                            class="border px-3 py-2 hover:bg-[#031738] hover:text-white text-xs transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(50,80,130,0.4)]">Go-To-Market</span>
+                        <span
+                            class="border px-3 py-2 hover:bg-[#031738] hover:text-white text-xs transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(50,80,130,0.4)]">Partnerships</span>
+                    </div>
+                </div>
+                <div class="border-t border-gray-300 p-8">
+                    <p class="text-xs text-gray-400">03</p>
+                    <h3 class="font-cormorant text-3xl text-[#0A1628] mt-6">
+                        International Expansion
+                    </h3>
+                    <p class="text-gray-600 mt-4 leading-8">
+                        End-to-end support for entering new markets.
+                    </p>
+                </div>
+                <div class="border-t border-l border-gray-300 p-8">
+                    <p class="text-xs text-gray-400">04</p>
+                    <h3 class="font-cormorant text-3xl text-[#0A1628] mt-6">
+                        Import & Export Advisory
+                    </h3>
+                    <p class="text-gray-600 mt-4 leading-8">
+                        Supporting businesses in sourcing and trading.
+                    </p>
+                </div>
+                <div class="border-t border-l border-gray-300 p-8">
+                    <p class="text-xs text-gray-400">05</p>
+                    <h3 class="font-cormorant text-3xl text-[#0A1628] mt-6">
+                        Government & Regulatory
+                    </h3>
+                    <p class="text-gray-600 mt-4 leading-8">
+                        Navigating policies and compliance frameworks.
+                    </p>
+                </div>
+                <div class="border-t border-gray-300 p-8">
+                    <p class="text-xs text-gray-400">06</p>
+                    <h3 class="font-cormorant text-3xl text-[#0A1628] mt-6">
+                        Execution Support
+                    </h3>
+                    <p class="text-gray-600 mt-4 leading-8">
+                        On-ground implementation and project support.
+                    </p>
+                </div>
+                <div class="md:col-span-2 border-l border-t border-gray-300">
+                    <img src="images/hero2.jpg" class=" object-cover"
+                        alt="" style="width:794.5px; height:506.752869px;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--what we offer section endds here-->
+
+    <!--why choose rebboni section starts here-->
+    <section class="bg-[#041633] text-white py-24 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-20 items-center">
+                <div>
+                    <div class="flex items-center gap-3 mb-8">
+                        <div class="w-8 border-b border-[#C9A84C]"></div>
+                        <p class="uppercase text-xs tracking-[4px] text-[#C9A84C]">
+                            The Rabboni Difference
+                        </p>
+                    </div>
+                    <h2 class="font-cormorant text-5xl md:text-6xl leading-tight">
+                        Why global businesses
+                        <br>
+                        choose Rabboni
+                    </h2>
+                    <p class="mt-8 text-gray-400 text-lg leading-9 max-w-xl">
+                        We operate at the intersection of strategy,
+                        transformation, and execution — rare in the
+                        consulting landscape.
+                    </p>
+                </div>
+                <div class="flex items-center">
+                    <div class="h-16 w-px bg-[#C9A84C] mr-6"></div>
+                    <p class="font-cormorant italic text-3xl text-gray-300">
+                        "Most consultants hand you a report.
+                        We stay until the work is done."
+                    </p>
+                </div>
+            </div>
+            <div class="border-t border-[#1b2f52] my-16"></div>
+            <div class="grid md:grid-cols-4">
+                <div class="px-6 border-r border-[#1b2f52]">
+                    <p class="text-[#C9A84C] font-cormorant text-4xl mb-6">01</p>
+                    <h3 class="text-xl font-medium mb-5">
+                        Strategy + Execution
+                    </h3>
+                    <p class="text-gray-400 leading-8">
+                        We don't stop at the slide deck.
+                        Our teams support implementation,
+                        vendor alignment, and go-live.
+                    </p>
+                </div>
+                <div class="px-6 border-r border-[#1b2f52]">
+                    <p class="text-[#C9A84C] font-cormorant text-4xl mb-6">02</p>
+                    <h3 class="text-xl font-medium mb-5">
+                        Cross-Border Expertise
+                    </h3>
+                    <p class="text-gray-400 leading-8">
+                        Deep understanding of Canadian
+                        regulations and international trade.
+                    </p>
+                </div>
+                <div class="px-6 border-r border-[#1b2f52]">
+                    <p class="text-[#C9A84C] font-cormorant text-4xl mb-6">03</p>
+                    <h3 class="text-xl font-medium mb-5">
+                        Transformation-Led Approach
+                    </h3>
+                    <p class="text-gray-400 leading-8">
+                        Every engagement begins with
+                        understanding what needs to change
+                        for growth to be sustainable.
+                    </p>
+                </div>
+                <div class="px-6">
+                    <p class="text-[#C9A84C] font-cormorant text-4xl mb-6">04</p>
+                    <h3 class="text-xl font-medium mb-5">
+                        Partner & Market Network
+                    </h3>
+                    <p class="text-gray-400 leading-8">
+                        Relationships with regulators,
+                        logistics providers and distribution
+                        networks across global markets.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--why choose rebboni section ends here-->
+
+    <!--how we work section starts here-->
+    <section class="bg-[#FAF8F4] py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center">
+                <div class="flex justify-center items-center gap-4 mb-10">
+                    <div class="w-10 border-b border-[#C9A84C]"></div>
+                    <p class="uppercase text-xs tracking-[4px] text-[#C9A84C]">
+                        How We Work
+                    </p>
+                    <div class="w-10 border-b border-[#C9A84C]"></div>
+                </div>
+                <h2 class="font-cormorant text-[#0A1628] text-5xl md:text-6xl leading-tight">
+                    A proven path from
+                    <span class="italic">
+                        ambition
+                    </span>
+                    to
+                    <span class="italic">
+                        achievement
+                    </span>
+                </h2>
+                <p class="mt-8 text-gray-500 text-lg max-w-2xl mx-auto leading-9">
+                    Every engagement follows a disciplined
+                    process designed for clarity, speed,
+                    and results.
+                </p>
+            </div>
+            <div class="relative mt-24">
+                <div class="hidden md:block absolute top-7 left-0 w-full h-px bg-[#D8C79A]"></div>
+                <div class="grid md:grid-cols-4 gap-10 relative z-10">
+                    <div class="text-center">
+                        <div class="w-14 h-14 rounded-full border border-[#C9A84C]
+                        bg-[#F7F6F3] hover:text-[#C9A84C] hover:bg-[#0A1628] flex items-center justify-center mx-auto">
+                            1
+                        </div>
+                        <h3 class="mt-8 text-xl font-medium text-[#0A1628]">
+                            Discovery
+                        </h3>
+                        <p class="mt-4 text-gray-500 leading-8">
+                            Deep-dive into your business,
+                            goals and market context.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-14 h-14 rounded-full border border-[#C9A84C]
+                        bg-[#F7F6F3] hover:bg-[#0A1628] hover:text-[#C9A84C] flex items-center justify-center mx-auto">
+                            2
+                        </div>
+                        <h3 class="mt-8 text-xl font-medium text-[#0A1628]">
+                            Strategy Design
+                        </h3>
+                        <p class="mt-4 text-gray-500 leading-8">
+                            Build a precise plan with
+                            milestones and KPIs.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-14 h-14 rounded-full border border-[#C9A84C]
+                        bg-[#F7F6F3] hover:bg-[#0A1628] hover:text-[#C9A84C] flex items-center justify-center mx-auto">
+                            3
+                        </div>
+                        <h3 class="mt-8 text-xl font-medium text-[#0A1628]">
+                            Execution
+                        </h3>
+                        <p class="mt-4 text-gray-500 leading-8">
+                            On-ground implementation,
+                            vendor management and setup.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-14 h-14 rounded-full border border-[#C9A84C]
+                        bg-[#F7F6F3] hover:bg-[#0A1628] hover:text-[#C9A84C] flex items-center justify-center mx-auto">
+                            4
+                        </div>
+                        <h3 class="mt-8 text-xl font-medium text-[#0A1628]">
+                            Scale & Optimise
+                        </h3>
+                        <p class="mt-4 text-gray-500 leading-8">
+                            Track performance and
+                            accelerate growth momentum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--how we work section ends here-->
+
+    <!--cta section starts here-->
+    <section class="bg-[#FFFFFF] py-28">
+        <div class="max-w-4xl mx-auto text-center px-6">
+            <div class="flex justify-center items-center gap-4 mb-8">
+                <div class="w-10 border-b border-[#C9A84C]"></div>
+                <p class="uppercase text-xs tracking-[4px] text-[#C9A84C]">
+                    Start The Conversation
+                </p>
+                <div class="w-10 border-b border-[#C9A84C]"></div>
+            </div>
+            <h2 class="font-cormorant text-[#0A1628] text-6xl md:text-7xl">
+                Ready to scale
+                <span class="italic text-[#C9A84C]">
+                    globally?
+                </span>
+            </h2>
+            <p class="mt-8 text-gray-500 text-xl leading-10 max-w-2xl mx-auto">
+                Whether you're entering a new market, transforming
+                operations, or navigating cross-border trade —
+                we're ready when you are.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 mt-12">
+                <button class="bg-[#041633] text-[#C9A84C] hover:bg-[#C9A84C] hover:text-[#041633] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(4,22,51,0.3)] uppercase tracking-[2px]
+                px-12 py-5">
+                    Book A Consultation →
+                </button>
+                <button
+                    class="border border-[#C9A84C] text-[#0A1628] hover:text-[#C9A84C] hover:bg-[#0A1628]
+                uppercase tracking-[2px] px-12 py-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(50,80,130,0.4)]">
+                    View All Services
+                </button>
+            </div>
+        </div>
+    </section>
+    <!--cta section ends here-->
+
+    <!--contact section starts here-->
+    <section class="bg-[#041633] text-white py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20">
+                <div>
+                    <div class="flex items-center gap-3 mb-8">
+                        <div class="w-8 border-b border-[#C9A84C]"></div>
+                        <p class="uppercase text-xs tracking-[4px] text-[#C9A84C]">
+                            Get In Touch
+                        </p>
+                    </div>
+                    <h2 class="font-cormorant text-5xl md:text-6xl leading-tight">
+                        Let's build
+                        something
+                        <span class="italic">
+                            global
+                        </span>
+                        together
+                    </h2>
+                    <p class="text-gray-400 mt-8 text-lg leading-9 max-w-lg">
+                        Reach out to discuss your expansion goals,
+                        transformation needs, or any cross-border
+                        advisory requirement.
+                    </p>
+                    <div class="mt-14 space-y-8">
+                        <div class="flex gap-4 items-start">
+                            <div
+                                class="w-12 h-12 border border-[#C9A84C] hover:bg-[#C9A84C] hover:text-[#041633]
+                            flex items-center justify-center text-[#C9A84C] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(201,168,76,0.35)]">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <p class="uppercase text-xs tracking-[3px]
+                                text-[#C9A84C]">
+                                    Location
+                                </p>
+                                <p class="mt-2 text-gray-300">
+                                    Canada
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 items-start">
+                            <div
+                                class="w-12 h-12 border border-[#C9A84C] hover:bg-[#C9A84C] hover:text-[#041633]
+                            flex items-center justify-center text-[#C9A84C] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(201,168,76,0.35)]">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="uppercase text-xs tracking-[3px]
+                                text-[#C9A84C]">
+                                    Email
+                                </p>
+                                <p class="mt-2 text-gray-300">
+                                    info@rabboniconsultants.com
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 items-start">
+                            <div
+                                class="w-12 h-12 border border-[#C9A84C] hover:bg-[#C9A84C] hover:text-[#041633]
+                            flex items-center justify-center text-[#C9A84C] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(201,168,76,0.35)]">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <p class="uppercase text-xs tracking-[3px]
+                                text-[#C9A84C]">
+                                    WhatsApp
+                                </p>
+                                <p class="mt-2 text-gray-300">
+                                    Available via WhatsApp
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <form class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block uppercase text-xs tracking-[3px]
+                                text-gray-500 mb-2">
+                                    First Name
+                                </label>
+                                <input type="text" placeholder="John" class="w-full bg-[#122340]
+                                border border-[#243657]
+                                px-4 py-4 outline-none">
+                            </div>
+                            <div>
+                                <label class="block uppercase text-xs tracking-[3px]
+                                text-gray-500 mb-2">
+                                    Last Name
+                                </label>
+                                <input type="text" placeholder="Smith" class="w-full bg-[#122340]
+                                border border-[#243657]
+                                px-4 py-4 outline-none">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block uppercase text-xs tracking-[3px]
+                            text-gray-500 mb-2">
+                                Email Address
+                            </label>
+                            <input type="email" placeholder="john@company.com" class="w-full bg-[#122340]
+                            border border-[#243657]
+                            px-4 py-4 outline-none">
+                        </div>
+                        <div>
+                            <label class="block uppercase text-xs tracking-[3px]
+                            text-gray-500 mb-2">
+                                Company
+                            </label>
+                            <input type="text" placeholder="Your company name" class="w-full bg-[#122340]
+                            border border-[#243657]
+                            px-4 py-4 outline-none">
+                        </div>
+                        <div>
+                            <label class="block uppercase text-xs tracking-[3px]
+                            text-gray-500 mb-2">
+                                Service Of Interest
+                            </label>
+                            <select class="w-full bg-[#122340]
+                            border border-[#243657]
+                            px-4 py-4 outline-none">
+                                <option>
+                                    Select a service...
+                                </option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block uppercase text-xs tracking-[3px]
+                            text-gray-500 mb-2">
+                                Message
+                            </label>
+                            <textarea rows="5" placeholder="Tell us about your business goals and how we can help..."
+                                class="w-full bg-[#122340]
+                            border border-[#243657]
+                            px-4 py-4 outline-none resize-none"></textarea>
+                        </div>
+                        <button
+                            class="w-full bg-[#C9A84C]
+                        text-[#041633] hover:text-[#C9A84c] hover:bg-[#0d2449c3]
+                        uppercase tracking-[3px]
+                        py-5 font-medium transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(201,168,76,0.35)]">
+                            Send Message →
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact section ends here-->
+
+    <!--footer section starts here-->
+    <footer class="bg-[#071B47] text-white py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-12">
+                <div class="md:col-span-1">
+                    <h2 class="font-cormorant text-5xl text-white">
+                        Rabboni Consultants Ltd.
+                    </h2>
+                    <p class="mt-6 uppercase tracking-[4px] text-xs text-[#C9A84C]">
+                        Transforming Businesses. Enabling Global Growth.
+                    </p>
+                    <p class="mt-10 text-gray-400 leading-10 text-xl max-w-md">
+                        A Canada-based consulting and international business
+                        advisory firm operating at the intersection of strategy,
+                        transformation, and execution.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="uppercase tracking-[4px] text-sm text-gray-500 mb-10">
+                        Services
+                    </h3>
+                    <ul class="space-y-8 text-gray-300 text-2xl">
+                        <li><a href="#">Business Consulting</a></li>
+                        <li><a href="#">Business Transformation</a></li>
+                        <li><a href="#">International Expansion</a></li>
+                        <li><a href="#">Import & Export</a></li>
+                        <li><a href="#">Regulatory Advisory</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="uppercase tracking-[4px] text-sm text-gray-500 mb-10">
+                        Company
+                    </h3>
+                    <ul class="space-y-8 text-gray-300 text-2xl">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Why Rabboni</a></li>
+                        <li><a href="#">Our Process</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="uppercase tracking-[4px] text-sm text-gray-500 mb-10">
+                        Connect
+                    </h3>
+                    <ul class="space-y-8 text-gray-300 text-2xl">
+                        <li><a href="#">Book a Consultation</a></li>
+                        <li><a href="#">WhatsApp Us</a></li>
+                        <li><a href="#">Email Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-[#1B2F59] mt-20 pt-10">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                    <p class="text-gray-500 text-lg">
+                        © 2025
+                        <span class="text-[#C9A84C]">
+                            Rabboni Consultants Ltd.
+                        </span>
+                        All rights reserved.
+                    </p>
+                    <p class="text-gray-500 text-lg">
+                        Canada — Global Reach
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer ends here-->
+</body>
+
+</html>
